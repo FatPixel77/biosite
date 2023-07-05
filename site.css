@@ -1,0 +1,131 @@
+:root {
+    --primary-color: #1e1bc7; 
+  }
+
+header {
+    background-color: var(--primary-color);
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+body {
+    background-color: rgb(131, 170, 221); }
+
+h1 {
+    font-weight: 400;
+}
+
+#navbar {
+    overflow: hidden;
+    background-color:rgb(3, 96, 172);
+    border-bottom: solid 15px <border-color>;
+}
+
+#navbar a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+#navbar a:hover {
+    background-color:rgb(221, 97, 252);
+    color: rgb(100, 185, 255);
+}
+
+#container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    margin-top: 2%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 10px;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    width: 100%;
+    height: 85%;
+    background-color:rgb(100, 185, 255);
+    text-align: center;
+    color: white;
+    font-weight: 100;
+}
+
+.card-title {
+    text-align: center;
+    font-size: 2em;
+    color: white;
+    font-weight: 400;
+}
+
+.card-content {
+    padding: 35px 16px;
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.card1 {
+    transition: 0.3s;
+    width: 71%;
+    
+}
+
+.card1-title {
+    text-align: center;
+    font-size: 2em;
+    color: white;
+    font-weight: 400;
+}
+
+.card1-content {
+    padding: 35px 16px;
+}
+
+.card1:hover {
+
+}
+
+.intro {
+    font-size: 36px;
+}
+
+
+footer {
+    background-color: rgb(3, 96, 172);
+    position: fixed;
+    left: 0;
+    width: 100%;
+    bottom: 0;
+    padding: 20px; 
+    box-sizing: border-box; 
+}
+
+footer p {
+    color: white;
+    font-weight: 400;
+    text-align: right; 
+    margin: 0; 
+}
+
+footer a {
+    text-decoration: none;
+    color: white;
+    font-style: italic;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+.card-content {
+    margin-bottom: 80px;
+}
+
+
